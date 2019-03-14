@@ -1,0 +1,21 @@
+{
+  "Genres" : [
+    { "Adventure" : ["Treasure Islane","The Lord of The Rings",
+      "Moby Dick","The Three Muskateers",
+      "The Count of Monte Cristo"] },
+
+    { "Fantasy" : ["Raven Of Tomorrow","Defender Of Reality",
+      "Dogs Of The Stockades","Butchers Of Freedom",
+      "Lions And Butchers"]},
+
+    { "Sci-Fi" : ["Toad and the Dimensional Children","Fog and the Bound Power",
+      "The Next Discovery Under the Skunk","The Nothing of Pain",
+      "Power and War"]},
+
+    { "Romance" : ["a","b","c","d","e"]},
+
+    { "Horror" : ["The Casket the Sea Saved","Cup and Madness",
+      "The Daylight of Card","The Dance the Claim Chased",
+      "Lightning's Path"]}
+  ]
+}
