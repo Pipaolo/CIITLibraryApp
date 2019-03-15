@@ -1,4 +1,4 @@
-package edu.ciit.library_app;
+package edu.ciit.library_app.Models;
 
 public class books {
 

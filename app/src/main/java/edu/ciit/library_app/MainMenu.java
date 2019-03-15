@@ -16,6 +16,8 @@ import android.widget.TextView;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.squareup.picasso.Picasso;
 
+import edu.ciit.library_app.Fragments.BrowseFragment;
+
 public class MainMenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -49,7 +51,6 @@ public class MainMenu extends AppCompatActivity
         ImageView profileImage = headerView.findViewById(R.id.nav_profile_image);
         Picasso.get().load("http://i.imgur.com/DvpvklR.png").fit().into(profileImage);
         profileName.setText(account.getDisplayName());
-
 
     }
 

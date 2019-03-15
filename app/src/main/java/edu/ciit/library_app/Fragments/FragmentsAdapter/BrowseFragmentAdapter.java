@@ -1,4 +1,4 @@
-package edu.ciit.library_app;
+package edu.ciit.library_app.Fragments.FragmentsAdapter;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -9,10 +9,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import edu.ciit.library_app.R;
+import edu.ciit.library_app.Models.books;
+
 public class BrowseFragmentAdapter extends RecyclerView.Adapter<BrowseFragmentAdapter.BrowseViewHolder> {
 
     private ArrayList<books> mBooks;
-
     public BrowseFragmentAdapter(ArrayList<books> booksList) {
         mBooks = booksList;
     }
